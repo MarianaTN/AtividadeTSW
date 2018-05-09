@@ -1,14 +1,11 @@
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import static org.junit.Assert.*;
-
 public class CadastroGmailTest {
+
     private static WebDriver driver;
 
     @BeforeClass
