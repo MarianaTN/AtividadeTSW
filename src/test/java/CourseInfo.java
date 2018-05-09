@@ -3,6 +3,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import static org.junit.Assert.assertEquals;
+
 public class CourseInfo {
 
     private WebDriver driver;
@@ -30,14 +32,14 @@ public class CourseInfo {
         this.driver = driver;
     }
 
-    public CourseInfo InsertDescription(String description) {
+    public void InsertDescription(String description) {
         infoTextboxEnable.sendKeys(description);
 
         PageFactory.initElements((WebDriver) driver, this);
 
         sendButton.click();
 
-        return this;
+        assertEquals(infoTextbox.getText(), description);
     }
 
 }

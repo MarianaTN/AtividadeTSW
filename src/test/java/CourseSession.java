@@ -46,6 +46,9 @@ public class CourseSession {
     @FindBy(xpath = "/html/body/app/div/main/app-video-session/div/ul/div/div/div[2]/form")
     private WebElement formConference;
 
+    @FindBy(id = "message_box")
+    private WebElement messageBoxConference;
+
     public CourseSession(WebDriver driver) {
 
         this.driver = driver;
@@ -68,6 +71,9 @@ public class CourseSession {
         menuConference.click();
         messageConference.sendKeys(message);
         formConference.click();
+
+        //messageBoxConference.getSize();
+        //como não está funcionando, não sei como pegar as mensagens
 
         return this;
     }
