@@ -14,14 +14,14 @@ import static org.junit.Assert.assertTrue;
 public class LoginTest {
     private static WebDriver driver;
 
-    private String urlLogado = "https://atlantis.isti.cnr.it:5000/course";
-    private String url = "https://atlantis.isti.cnr.it:5000/";
+    private String urlLogado = "https://localhost:5000/course";
+    private String url = "https://localhost:5000/";
 
     @BeforeClass
     public static void configura() {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("https://atlantis.isti.cnr.it:5000/");
+        driver.get("https://localhost:5000/");
        // driver.findElement(By.linkText("I understand the risks and wish to continue")).click();
         driver.findElement(By.linkText("Log in")).click();
 
