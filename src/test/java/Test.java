@@ -9,8 +9,8 @@ public class Test {
 
     private static WebDriver driver;
 
-    private String email = "student2@gmail.com";
-    private String password = "Tester123";
+    private String email = "student1@gmail.com";
+    private String password;
 
     @BeforeClass
     public static void configure() {
@@ -21,6 +21,8 @@ public class Test {
     }
 
     private void loginSite(){
+        password = "Pass1234";
+
         Login pagLogin = PageFactory.initElements(driver, Login.class);
         pagLogin.preencheDados(email, password);
         driver.findElement(By.id("log-in-btn")).click();
@@ -40,31 +42,30 @@ public class Test {
         driver.get("https://localhost:5000/courses/1/0");
         CourseInfo pag = PageFactory.initElements(driver, CourseInfo.class);
         pag.InsertDescription("Descrição 1 Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1");
-    }
+    }*/
 
     @org.junit.Test
     public void testCourseSession() {
 
         loginSite();
 
-        driver.get("https://localhost:5000/courses/1/1");
+        driver.findElement(By.xpath("/html/body/app/div/main/app-dashboard/div/div[2]/div/div[1]/ul/li[1]/div/div[2]")).click();
+        driver.findElement(By.xpath("/html/body/app/div/main/app-course-details/div/div[3]/md-tab-group/div[1]/div[2]/div")).click();
+        driver.findElement(By.xpath("/html/body/app/div/main/app-course-details/div/div[3]/md-tab-group/div[2]/div[2]/div/ul/div[1]/li[1]/div/div[1]")).click();
+
         CourseSession pag = PageFactory.initElements(driver, CourseSession.class);
         pag.ConferenceSession("TESTE 1");
-    }*/
+    }
 
-    @org.junit.Test
+    /*@org.junit.Test
     public void testChangePassword() {
+
 
         loginSite();
 
         driver.findElement(By.id("settings-button")).click();
-
         SeetingsUser pag = PageFactory.initElements(driver, SeetingsUser.class);
-        pag.ChangePassword("Tester123", password);
+        pag.ChangePassword("Pass1234", password);
 
-        this.password = "Tester123";
-
-        loginSite();
-
-    }
+    }*/
 }

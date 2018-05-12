@@ -1,8 +1,11 @@
+import org.eclipse.jetty.util.thread.Scheduler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.assertEquals;
 
@@ -26,29 +29,34 @@ public class SeetingsUser {
     @FindBy(xpath = "/html/body/app/div/main/app-settings/div/div[1]/div/div/form/div[2]/button")
     private WebElement sendChangePasswordButton;
 
+    @FindBy(xpath = "/html/body/app/div/main/app-settings/div/div[1]/div/div/form/div[2]/a")
+    private WebElement closeChangePasswordButton;
+
+    @FindBy(xpath = "/html/body/app/div/header/navbar/div/nav/div/ul[1]/li[3]/a")
+    private WebElement arrowButton;
+
     @FindBy(xpath = "/html/body/app/div/main/app-settings/div/div[3]/div[1]/div/div[2]/div/app-file-uploader/div/div[1]/div[1]/label")
     private WebElement changePictureButton;
+
+    @FindBy(id = "logout-button")
+    private WebElement logoutButton;
 
     @FindBy(xpath = "/html/body/app/div/main/app-settings/div/div[1]/div/div/form/app-error-message/div")
     private WebElement message;
 
 
-    public void ChangePassword(String newPassword, String currentPassword) {
+    public SeetingsUser ChangePassword(String newPassword, String currentPassword)  {
 
         changePasswordButton.click();
         textNewPassword.sendKeys(newPassword);
         textNewPasswordAgain.sendKeys(newPassword);
         textCurrentPassword.sendKeys(currentPassword);
-        sendChangePasswordButton.click();
+        sendChangePasswordButton.submit();
+        closeChangePasswordButton.click();
 
         PageFactory.initElements((WebDriver) driver, this);
 
-     //   driver.findElement(By.id("arrow-drop-down")).click();
-
-        //driver.findElement(By.("materialize-modal-overlay-1"));
-
-
-        //assertEquals(message.getText(), "");className
+        return this;
 
     }
 
