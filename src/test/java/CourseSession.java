@@ -37,17 +37,18 @@ public class CourseSession {
     @FindBy(xpath="/html/body/app/div/main/app-course-details/div/div[4]/md-tab-group/div[2]/div[2]/div/ul/div[1]/li[1]/div/div[1]")
     private WebElement sessionLabel;
 
-    @FindBy(id = "fixed-icon")
-    private WebElement menuConference;
-
     @FindBy(id = "message")
     private WebElement messageConference;
 
-    @FindBy(xpath = "/html/body/app/div/main/app-video-session/div/ul/div/div/div[2]/form")
-    private WebElement formConference;
+    @FindBy(id = "send-btn")
+    private WebElement sendButtonConference;
 
     @FindBy(id = "message_box")
     private WebElement messageBoxConference;
+
+    @FindBy(id = "side-menu-button")
+    private WebElement sideMenuConference;
+
 
     public CourseSession(WebDriver driver) {
 
@@ -67,13 +68,11 @@ public class CourseSession {
     }
 
     public CourseSession ConferenceSession(String message){
-        sessionLabel.click();
-        menuConference.click();
+        sideMenuConference.click();
         messageConference.sendKeys(message);
-        formConference.click();
+        sendButtonConference.submit();
 
-        //messageBoxConference.getSize();
-        //como não está funcionando, não sei como pegar as mensagens
+        //como não está funcionando, não sei como testar
 
         return this;
     }
