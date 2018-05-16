@@ -1,4 +1,5 @@
-import com.gargoylesoftware.htmlunit.Page;
+package Fase1;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -14,21 +15,21 @@ import static org.junit.Assert.assertTrue;
 public class LoginTest {
     private static WebDriver driver;
 
-    private String urlLogado = "https://localhost:5000/course";
-    private String url = "https://localhost:5000/";
+    private static String urlLogado = "https://atlantis.isti.cnr.it:5000/course";
+    private static String url = "https://atlantis.isti.cnr.it:5000/";
 
     @BeforeClass
-    public static void configura() {
+    public  void configura() {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("https://localhost:5000/");
+        driver.get("https://atlantis.isti.cnr.it:5000/");
        // driver.findElement(By.linkText("I understand the risks and wish to continue")).click();
         driver.findElement(By.linkText("Log in")).click();
 
     }
 
     @Test
-    public void testProfessorLogin() throws InterruptedException {
+    public  void  testProfessorLogin() {
         Login pag = PageFactory.initElements(driver, Login.class);
         pag.preencheDados("teacher@gmail.com", "pass");
 
@@ -37,7 +38,6 @@ public class LoginTest {
 
         assertTrue(logado);
     }
-
     @Test
     public void testAlunoLogin(){
         Login pag1 = PageFactory.initElements(driver, Login.class);
