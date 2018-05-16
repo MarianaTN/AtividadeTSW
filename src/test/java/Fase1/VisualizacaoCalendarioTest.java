@@ -47,7 +47,7 @@ public class VisualizacaoCalendarioTest {
 
 
     @Test
-    public void testaBotaoDepois(){
+    public void testaBotaoAntes(){
         VisualizacaoCalendario calendarioATestar =  PageFactory.initElements(driver, VisualizacaoCalendario.class);
         String MesStart = driver.findElement(By.className("calendar-title")).getText();
         calendarioATestar.ConfereCalendarioAnte();
