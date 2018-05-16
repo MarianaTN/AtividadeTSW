@@ -1,3 +1,6 @@
+import Fase1.CourseInfo;
+import Fase1.CourseSession;
+import Fase1.Login;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

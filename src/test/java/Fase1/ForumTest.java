@@ -42,7 +42,7 @@ public class ForumTest {
         forum.preencheDados("Titulo 3", "Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 Comentário 1 ");
         driver.findElement(By.id("post-modal-btn")).click();
 
-       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html/body/app/div/main/app-course-details/div/div[4]/md-tab-group/div[2]/div[3]/div/ul/div[1]/div/li")).click();
         driver.findElement(By.xpath("/html/body/app/div/main/app-course-details/div/div[4]/md-tab-group/div[2]/div[3]/div/div/div[1]/div[2]/a")).click();
 
