@@ -17,7 +17,6 @@ public class Forum {
     @FindBy(name = "inputComment")
     private WebElement comentario;
 
-
     public Forum(WebDriver driver) {
         this.driver = driver;
     }

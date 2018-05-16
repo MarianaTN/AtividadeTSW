@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1719f338-7c56-4f49-ac59-a14fb1b4d7cb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fase1/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fase1/Forum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,20 +77,17 @@
       <file leaf-file-name="ForumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+            <state relative-caret-position="697">
+              <caret line="60" column="171" selection-start-line="60" selection-start-column="171" selection-end-line="60" selection-end-column="171" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/Teste.java">
+      <file leaf-file-name="Forum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/Forum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -99,8 +95,17 @@
       <file leaf-file-name="VisualizacaoCalendario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisualizacaoCalendarioTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendarioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -132,16 +137,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CadastroTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CadastroTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="986">
               <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -150,19 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControleAlunosCurso.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/ControleAlunosCurso.java">
+      <file leaf-file-name="CourseInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CourseInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeetingsUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/SeetingsUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
+            <state relative-caret-position="68">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -503,8 +499,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Fase1/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Fase1/Forum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java" />
       </list>
     </option>
   </component>
@@ -612,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ForumTest.testAcessoForum">
+  <component name="RunManager" selected="JUnit.ForumTest.testDesativarForum">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -766,9 +763,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForumTest.testAcessoForum" />
-        <item itemvalue="JUnit.ForumTest.testAtivarForum" />
         <item itemvalue="JUnit.ForumTest.testDesativarForum" />
+        <item itemvalue="JUnit.ForumTest.testAtivarForum" />
+        <item itemvalue="JUnit.ForumTest.testAcessoForum" />
         <item itemvalue="JUnit.Test" />
         <item itemvalue="JUnit.CadastroGmailTest.test" />
       </list>
@@ -840,24 +837,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 15m 48s.xml">
-      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 18m 40s.xml">
-      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 25m 23s.xml">
-      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 28m 28s.xml">
-      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 31m 18s.xml">
-      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 15h 42m 01s.xml">
-      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 15h 45m 51s.xml">
       <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
     </history-entry>
@@ -870,9 +849,27 @@
     <history-entry file="ForumTest_testAcessoForum - 2018.05.16 at 15h 54m 36s.xml">
       <configuration name="ForumTest.testAcessoForum" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 16h 12m 56s.xml">
+      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 16h 14m 11s.xml">
+      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumTest_testAtivarForum - 2018.05.16 at 16h 16m 04s.xml">
+      <configuration name="ForumTest.testAtivarForum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 16h 17m 57s.xml">
+      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 16h 20m 24s.xml">
+      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumTest_testDesativarForum - 2018.05.16 at 16h 25m 46s.xml">
+      <configuration name="ForumTest.testDesativarForum" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69092000" />
+    <option name="totallyTimeSpent" value="71523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -934,38 +931,38 @@
       <window_info id="Designer" order="2" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" anchor="bottom" id="Build" order="9" visible="true" weight="0.29888713" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.2979719" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7157025" weight="0.110929854" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.28429753" side_tool="true" weight="0.10608424" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4996016" weight="0.3290938" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24940239" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.329429" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.6932271" weight="0.32917318" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32988048" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32828686" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18804781" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32988048" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5070203" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -986,16 +983,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CourseInfo.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1097,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendarioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CausaEfeito/VisualizacaoCalendario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1135,13 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CourseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/ControleAlunosCurso.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1163,13 +1136,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1204,24 +1170,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CourseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/VisualizacaoCalendarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/Forum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/ForumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+        <state relative-caret-position="697">
+          <caret line="60" column="171" selection-start-line="60" selection-start-column="171" selection-end-line="60" selection-end-column="171" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fase1/CadastroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+        <state relative-caret-position="986">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
         </state>
       </provider>
     </entry>
