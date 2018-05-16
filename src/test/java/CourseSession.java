@@ -1,8 +1,11 @@
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.Date;
+
+import static org.junit.Assert.assertTrue;
 
 public class CourseSession {
     private WebDriver driver;
@@ -49,6 +52,17 @@ public class CourseSession {
     @FindBy(id = "side-menu-button")
     private WebElement sideMenuConference;
 
+    @FindBy(id = "show-chat-icon")
+    private WebElement userChatIcon;
+
+    @FindBy(id = "num-attenders-div")
+    private WebElement onlineAttenders;
+
+    @FindBy(xpath = "/html/body/app/div/main/app-video-session/div/div/div[1]/a")
+    private WebElement expandButton;
+
+    @FindBy(id = "exit-icon")
+    private WebElement exitButton;
 
     public CourseSession(WebDriver driver) {
 
@@ -56,6 +70,7 @@ public class CourseSession {
     }
 
     public CourseSession EditSession(String title, String description, Date date, boolean delete) {
+        addButton.click();
         titleText.sendKeys(title);
         descriptionText.sendKeys(description);
         dateText.sendKeys(date.toString());
@@ -71,9 +86,20 @@ public class CourseSession {
         sideMenuConference.click();
         messageConference.sendKeys(message);
         sendButtonConference.submit();
-
+        exitButton.click();
         //como não está funcionando, não sei como testar
 
         return this;
+    }
+
+    public void AttendersSession(){
+        sideMenuConference.click();
+        userChatIcon.click();
+
+        assertTrue(onlineAttenders.isEnabled());
+    }
+
+    public void Expand(){
+        expandButton.click();
     }
 }

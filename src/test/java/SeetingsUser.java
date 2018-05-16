@@ -41,7 +41,7 @@ public class SeetingsUser {
     @FindBy(id = "logout-button")
     private WebElement logoutButton;
 
-    @FindBy(xpath = "/html/body/app/div/main/app-settings/div/div[1]/div/div/form/app-error-message/div")
+    @FindBy(xpath = "/html/body/app/div/main/app-presentation/login-modal/div/div[1]/div/form/app-error-message/div/h5")
     private WebElement message;
 
 
@@ -53,6 +53,7 @@ public class SeetingsUser {
         textCurrentPassword.sendKeys(currentPassword);
         sendChangePasswordButton.submit();
         closeChangePasswordButton.click();
+        //changePictureButton.click();
 
         PageFactory.initElements((WebDriver) driver, this);
 
