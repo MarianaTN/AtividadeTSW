@@ -1,9 +1,11 @@
+package Fase2;
+
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
-
+/*
 public class Test {
 
     private static WebDriver driver;
@@ -26,7 +28,7 @@ public class Test {
         driver.findElement(By.linkText("Log in")).click();
     }
 
-   /* @org.junit.Test
+   /* @org.junit.Fase2.Test
     public void testCourseInfo() {
 
         loginSite();
@@ -36,7 +38,7 @@ public class Test {
         pag.InsertDescription("Descrição 1 Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1");
     }
 
-    @org.junit.Test
+    @org.junit.Fase2.Test
     public void testChangePassword() {
         loginSite();
 
@@ -45,7 +47,6 @@ public class Test {
         pag.ChangePassword("Pass1234", password);
 
     }
-    */
 
     @org.junit.Test
     public void testCourseInfo() {
@@ -121,3 +122,4 @@ public class Test {
         driver.findElement(By.xpath(xpathTab)).click();
     }
 }
+*/
