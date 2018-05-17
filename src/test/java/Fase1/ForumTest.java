@@ -1,6 +1,7 @@
 package Fase1;
 
 import org.junit.After;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class ForumTest {
 
     private String url = "https://atlantis.isti.cnr.it:5000/course";
 
-    @BeforeClass
+    @Before
     public static void configura() {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
