@@ -25,8 +25,9 @@ public class VisualizacaoCalendario {
         return this;
     }
 
-    public String CofereMes(){
-        return mes.getText();
-        }
+    public void CofereMes(String teste){
+        teste = mes.getText();
+
+    }
 
 }
