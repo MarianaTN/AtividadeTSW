@@ -1,5 +1,6 @@
 package Fase1;
 
+import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -23,7 +24,6 @@ public class LoginTest {
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get("https://atlantis.isti.cnr.it:5000/");
-       // driver.findElement(By.linkText("I understand the risks and wish to continue")).click();
         driver.findElement(By.linkText("Log in")).click();
 
     }
@@ -71,4 +71,6 @@ public class LoginTest {
         assertEquals(url,logado);
     }
 
+    @After
+    public void encerra() {driver.close();}
 }
