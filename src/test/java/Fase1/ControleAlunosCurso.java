@@ -35,11 +35,11 @@ public class ControleAlunosCurso {
         return this; }
 
     public ControleAlunosCurso preencheDadosMulti(String email, String email_2) {
-       this.email_2.sendKeys(email_2);
-        this.email_1.sendKeys(email_1);
+        this.email_2.sendKeys(email_2);
+        this.email_1.sendKeys(email);
         PageFactory.initElements(driver, this);
         return this;
 
-
+    }
 
 }
