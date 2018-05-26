@@ -1,6 +1,5 @@
-import Fase1.CourseInfo;
-import Fase1.CourseSession;
-import Fase1.Login;
+package Fase1;
+
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,17 +28,8 @@ public class Test {
         driver.findElement(By.linkText("Log in")).click();
     }
 
-   /* @org.junit.Test
-    public void testCourseInfo() {
 
-        loginSite();
-
-        driver.get("https://localhost:5000/courses/1/0");
-        CourseInfo pag = PageFactory.initElements(driver, CourseInfo.class);
-        pag.InsertDescription("Descrição 1 Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1Descrição 1");
-    }
-
-    @org.junit.Test
+    //@org.junit.Test
     public void testChangePassword() {
         loginSite();
 
@@ -48,9 +38,9 @@ public class Test {
         pag.ChangePassword("Pass1234", password);
 
     }
-    */
 
-    @org.junit.Test
+
+    //@org.junit.Test
     public void testCourseInfo() {
 
         loginSite();
@@ -61,7 +51,7 @@ public class Test {
         pag.InsertDescription("teste 1");
     }
 
-    @org.junit.Test
+    //@org.junit.Test
     public void testCourseDetails() {
 
         loginSite();
@@ -73,7 +63,7 @@ public class Test {
 
     }
 
-    public void AddCourse(){
+    public void addCourse(){
         loginSite();
 
         driver.findElement(By.id("add-new-course-btn")).click();
@@ -81,7 +71,7 @@ public class Test {
         pag.AddCourse("TESTE 1");
     }
 
-    @org.junit.Test
+    //@org.junit.Test
     public void testCourseSession() {
 
         loginSite();
@@ -90,6 +80,20 @@ public class Test {
 
         CourseSession pag = PageFactory.initElements(driver, CourseSession.class);
         pag.ConferenceSession("TESTE 1");
+    }
+
+    public void testAddAluno(){
+        loginSite();
+        goToFirstCourse(attenderTab);
+        ControleAlunosCurso pag = PageFactory.initElements(driver, ControleAlunosCurso.class);
+
+        pag.preencheDadosSingle("teste@gmail.com");
+        pag.preencheDadosSingle("student1@gmail.com");
+        pag.preencheDadosMulti("student1@gmail.com" , "student1@gmail.com" , ",");
+        pag.preencheDadosMulti("student1@gmail.com" , "student1@gmail.com" , ".");
+        pag.preencheDadosMulti("teste@gmail.com" , "teste1@gmail.com" , ",");
+        pag.preencheDadosMulti("teste@gmail.com" , "teste1@gmail.com" , ".");
+
     }
 
     private static void initializeVariable(){
